@@ -1,0 +1,133 @@
+.container{
+    display: flex; 
+    justify-content: center;
+}
+.faqdiv {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+.box{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 12px;
+    
+}
+.ibox{
+    padding: 24px 27px;
+    max-width: 488px;
+    margin: 10px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+}
+p{
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.h1{
+font-family: DM Serif Text;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+}
+#attend{
+ background-color: #F46D46;
+}
+#individually{
+    background-color: #11A858;
+}
+#prizes{
+    background-color: #FF6565;
+}
+#size{
+    background-color:#CD307B;
+}
+#confirmed{
+    background-color: #002BB5;
+}
+#session{
+    background-color: #9648FB;
+}
+.h2{
+width: 417px;
+height: 36px;
+left: 27px;
+top: 24px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 36px;
+margin-inline-start: 0px;
+margin-inline-end: 0px; 
+
+color: #000000;
+}
+.p2{
+width: 434px;
+height: 52px;
+left: 27px;
+top: 70px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #000000;
+}
+.querycard {
+    align-items: center;
+    margin: auto;
+    background: #FFFFFF;
+border: 4px solid #000000;
+box-sizing: border-box;  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 27px;
+width: 488px;
+height: 146px;
+  }
+.faqh1 {
+    font-family: DM Serif Display;
+    font-size: 48px;
+font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 66px;
+  }
+@media only screen and (max-width: 500px) {
+    .container{
+        display: flex; 
+        flex-direction: column;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 800px){
+  .querycard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+  }
+ 
+  
